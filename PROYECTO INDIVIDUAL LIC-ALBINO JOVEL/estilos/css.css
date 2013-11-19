@@ -1,0 +1,79 @@
+
+/*ESTILOS DE SCOUTS DE EL SALVADOR*/
+body{
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    height:1024px;
+}
+h1{
+  padding: auto;
+  color: black;
+}
+.informacion{
+ max-width: 100%;
+ width: auto;
+ height: auto;
+ padding: 10px 10px 10px 10px;
+ background-color: white;
+ opacity: 0.7;
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.login{
+  max-width: 100%;
+  width: auto;
+  text-align: justify;
+  height: auto;
+  color: white;
+  padding: 25px 15px 10px 60px;
+  background-color: purple;
+  opacity: 0.7;
+}
+.boton{
+  font-size: 20px;
+  color: white;
+  background-color: purple;
+  border-color: black;
+}
+.boton:hover{
+  font-size: 20px;
+  color: purple;
+  background-color: white;
+  border-color: black;
+}
+img{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+video{
+  padding-left: 10%;
+  padding-right: 10%;
+max-width: 100%;
+width: auto;
+height: auto;
+}
+.DI{
+  text-align: center;
+   background-color: white;
+}
+footer{
+  text-align: center;
+   max-width: 100%;
+  width: auto;
+  height: auto;
+  color: white;
+  padding: 25px 15px 10px 60px;
+  background-color: purple;
+  opacity: 0.7;
+}

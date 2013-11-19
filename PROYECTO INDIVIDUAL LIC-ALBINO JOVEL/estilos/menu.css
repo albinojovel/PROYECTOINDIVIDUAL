@@ -1,0 +1,94 @@
+
+.nav{
+  position: left;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.navbar .brand {
+  margin-left:0;
+  padding: 0;
+  margin-top: 1.05em;
+}
+
+.navbar .brand a {
+  padding: 0;
+  color: #fff;
+  font-size: 1.75em;
+  margin-left: 0;
+  font-weight: normal;
+  font-family: 'Novecentowide-Bold', cursive;
+}s
+
+.navbar .brand a:hover {
+  text-decoration: none;
+  color:#9ff000;
+ transition: color .15s linear;
+ -webkit-transition: color .15s linear;
+ -moz-transition: color .15s linear;
+}
+.navbar .brand a:focus {
+  outline: none;
+}
+.navbar-inner {
+  min-height: 4.75em;
+}
+/*BARRA ESTÁTICA//////////////////////////////////////////////////////////////////////////////////////////////*/
+.navbar-inverse .navbar-inner {
+  background-repeat: repeat;
+  background-color: purple;
+  border-color: #ffffff;
+}
+
+.navbar-wrapper {
+  overflow:hidden;/* No fixed height, will break collapsible nav */
+}
+#menu-main {
+  margin-top: 1.125em;
+}
+
+#submenu-main {
+  background-color:  #9e0000;
+  width: 100%;
+  margin-top: 0em;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+ul#submenu-main > li > a {
+  font-family: 'Novecentowide-Bold', cursive;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+}
+
+ul#submenu-main > li > a:hover {
+  color: #000;
+}
+
+ul#menu-main > li > a {
+  font-family: 'Novecentowide-Bold', cursive;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+}
+
+ul#submenu-main > li > a {
+  font-family: 'Novecentowide-Bold', cursive;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+ul#menu-main > li > a:hover {
+  background: black;
+  padding: 9px 15px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  text-shadow: none;
+}
+
